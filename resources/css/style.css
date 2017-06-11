@@ -52,3 +52,24 @@ nav span {
   margin: auto;
   background-color: black;
 }
+#tea {
+  width: 1000px;
+  margin: auto;
+
+
+
+}
+.item {
+  padding: 5px;
+  display: block;
+}
+.item img {
+height: 200px;
+margin: 10px;
+}
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
