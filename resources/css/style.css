@@ -55,9 +55,10 @@ nav span {
 #tea {
   width: 1000px;
   margin: auto;
-
-
-
+}
+h2,h3,h4 {
+  margin: 0px;
+  padding: 10px;
 }
 .item {
   padding: 5px;
@@ -72,4 +73,26 @@ margin: 10px;
   padding: 5px;
   font-weight: bold;
   text-align: center;
+}
+#location {
+  background-image: url(../images/locations.jpg);
+  height: 500px;
+  margin: auto;
+}
+.locations {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#contact {
+  height: 200px;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
