@@ -1,0 +1,28 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+
+}
